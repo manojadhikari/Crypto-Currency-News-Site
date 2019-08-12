@@ -1,4 +1,4 @@
-# Crypto and Blockchain-Site
+# Crypto and Blockchain Updates
 
 ## Table of Contents
 + [About](#about)
