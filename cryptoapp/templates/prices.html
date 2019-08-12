@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if notfound %}
+  <h3>{{notfound}}</h3>
+{% else %}
+
+  {% for key, val in crypto.DISPLAY.items %}
+
+    <div class="jumbotron">
+      <h1 class="display-4">{{key}}</h1>
+      <strong>Current Price: </strong>{{val.USD.PRICE}}<br>
+      <strong>24 Hour High: </strong>{{val.USD.HIGHDAY}}<br>
+      <strong>24 Hour Low: </strong>{{val.USD.LOWDAY}}<br>
+      <strong>One Hour High: </strong>{{val.USD.HIGHHOUR}}<br>
+      <strong>One Hour Low: </strong>{{val.USD.LOWHOUR}}<br>
+      <strong>Market Cap: </strong>{{val.USD.MKTCAP}}<br>
+      <strong>Last Update: </strong>{{val.USD.LASTUPDATE}}
+    </div>
+  {% endfor %}
+{% endif %}
+{% endblock %}
