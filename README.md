@@ -4,6 +4,9 @@
 + [About](#about)
 + [Getting Started](#getting_started)
 + [Usage](#usage)
++ [Contribute](#contribute)
++ [Sources](#sources)
+
 
 ## About <a name = "about"></a>
 This is a web application that gives latest crypto currency values and news updates. I built this application to practice using Python django framework. I learned how to make api calls and use django with bootstrap.
@@ -19,3 +22,10 @@ These instructions will get you a copy of the project up and running on your loc
 ## Usage <a name = "usage"></a>
 On the <a href="https://sheltered-springs-15745.herokuapp.com/home/">Home</a> page search for Price updates on top 10 crypto currencies. Scroll down to the news section to see upto date crypto news.
 Navigate to the <a href="https://sheltered-springs-15745.herokuapp.com/prices/">Lookup Prices</a> page and type in any crypto symbol to get a quick value update. If you type ```BTC,XRP``` on the search box and click on search button, you will see values for both currencies.
+
+## Wanna Help? <a name="contribute"></a>
++ Contribute the Codebase
++ Promote
+
+## Sources <a name = "sources"></a>
++ https://www.cryptocompare.com/
